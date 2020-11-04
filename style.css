@@ -134,22 +134,6 @@ body {
     color: rgb(80, 80, 80);
 }
 
-/* .nav__toggle:checked ~ .nav {
-    width: 0;
-    transition: all 0.3s ease-in-out;
-} */
-
-/* .nav__toggle:checked ~ .nav > .nav__ul {
-    display: none;
-} */
-
-/* .nav__toggle:checked ~ .nav__toggle-label {
-    transform: translateX(-160px);
-    transition: all 0.3s ease-in-out;
-    background-image: url(./images/right-arrows.png);
-    margin-left: 10px;
-} */
-
 @media screen and (max-width: 800px) {
     
     .main {
@@ -163,26 +147,13 @@ body {
     .main__img-container {
         height: 180px;
     }
-    
-    .nav__toggle:checked ~ .main {
-        transition: all 0.3s ease-in;
-        margin: 0px;
-        padding: 100px 60px 0px 60px;
-    }
 }
 
 @media screen and (max-width: 550px) {
 
     .main {
         padding: 100px 20px 0px 20px;   
-        overflow-x: hidden;
     }
-
-    .nav__toggle:checked ~ .main {
-        margin: 0px;
-        padding: 100px 30px 0px 30px;
-    }
-    
 }
 
 @media screen and (max-width: 460px) {
@@ -204,7 +175,7 @@ body {
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        padding: 0px;
+        padding-left: 3px;
     }
 
     .nav__li {
